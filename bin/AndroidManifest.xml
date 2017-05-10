@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cjhmdpack"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/bob"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+        <activity
+          android:name="com.example.cjhmdpack.Main"
+          android:label="@string/app_name" >
+          <intent-filter>
+              <action android:name="android.intent.action.MAIN" />
+              <category android:name="android.intent.category.LAUNCHER" />
+          </intent-filter>
+        </activity>   
+        
+        <activity
+               android:label="TransactionsReport"
+               android:name=".TransactionsReport" >
+            <intent-filter>
+               <action android:name="net.learn2develop.TransactionsReport" />
+               <category android:name="android.intent.category.DEFAULT"  />
+            </intent-filter>    
+        </activity>
+        
+       <activity
+               android:label="actBankTrans"
+               android:name=".actBankTrans" >
+            <intent-filter >
+               <action android:name="net.learn2develop.actBankTrans" /> 
+			   <category android:name="android.intent.category.DEFAULT"  />
+           </intent-filter>    
+        </activity>
+        
+        <activity
+               android:label="Login2"
+               android:name=".Login2" >
+            <intent-filter >
+               <action android:name="net.learn2develop.Login2"/>
+               <category android:name="android.intent.category.DEFAULT"  />
+            </intent-filter>    
+        </activity>
+        
+      <activity
+           android:label="actChangePassword"
+           android:name=".actChangePassword" >
+        <intent-filter >
+           <action android:name="net.learn2develop.actChangePassword" />
+           <category android:name="android.intent.category.DEFAULT"  />
+        </intent-filter>    
+      </activity>
+      
+      <activity
+           android:label="actGetBalance"
+           android:name=".actGetBalance" >
+        <intent-filter >
+           <action android:name="net.learn2develop.actGetBalance" />
+           <category android:name="android.intent.category.DEFAULT"  />
+        </intent-filter>    
+      </activity>
+      
+    </application>
+
+</manifest>

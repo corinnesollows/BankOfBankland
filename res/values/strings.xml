@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bank of Bankland</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <!-- Bank Transaction Activity -->
+    
+    <string name="bankTransaction">~~Bank Transaction~~</string>
+    <string name="transactionType">Transaction Type:</string>
+  
+    <string name="deposit">Deposit</string>
+    <string name="withdraw">Withdraw</string>
+    <string name="balance">Balance</string>
+    
+    <string name="currentBalance">Current Balance:</string>
+    <string name="transactionAmount">Transaction Amount:</string>
+    <string name="newBalanceAmount">New Balance Amount:</string>
+   
+    <string name="submit">Submit</string>
+    <string name="returnButton">Return</string>
+    <string name="more">More</string>
+        
+    <!-- Transaction Report -->
+    
+    <string name="currentBalanceB">Current\nBalance</string>
+    <string name="currentBalance1">00</string>
+    <string name="currentBalance2">00</string>
+    <string name="currentBalance3">00</string>
+        
+    <string name="newBalance">New\nBalance</string>
+    <string name="newBalance1">00</string>
+    <string name="newBalance2">00</string>
+    <string name="newBalance3">00</string>
+    
+    <string name="typeTransaction">Type of\nTransaction</string>
+    <string name="typeTransaction1">00</string>
+    <string name="typeTransaction2">00</string>
+    <string name="typeTransaction3">00</string>
+    
+    <string name="transactionAmountB">Transaction\nAmount</string>
+    <string name="transactionAmount1">00</string>
+    <string name="transactionAmount2">00</string>
+    <string name="transactionAmount3">00</string>
+    
+    <string name="back">Back</string>
+    <string name="user">UserName</string>
+    <string name="transactionsReport">~~Transactions Report~~</string>
+        
+    
+    <!--Login -->
+    
+    <string name="login1">Login ~ Step 1</string>
+    <string name="username">Username:</string>
+    <string name="password">Password:</string>
+    <string name="username1"></string>
+    <string name="password1"></string>
+    
+    <string name="clear">Clear</string>
+    <string name="X">X</string>
+    <string name="ok">OK</string>
+    
+    
+    <!-- Login 2 -->
+    
+    <string name="exit">Exit</string>
+    <string name="login2">Login ~ Step 2</string>
+    <string name="clickButton">Click a Button:</string>
+    <string name="bankTransactionButton">Bank Transaction</string>
+    <string name="changePassword">Change Password</string>
+    
+    <!-- Change Password -->
+    
+    <string name="changePasswordTitle">Change Password</string>
+    <string name="currentPassword">Current Password:</string>
+    <string name="newPassword">New Password:</string>
+    <string name="confirmPassword">Confirm New\nPassword:</string>
+    <string name="enterCurrent"></string>
+    <string name="enterNew"></string>
+    <string name="enterConfirm"></string>
+        
+
+</resources>
